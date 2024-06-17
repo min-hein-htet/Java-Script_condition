@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conditional Statement</h1>
+    <h2>Nesting Algorithm</h2>
+    <hr>
+
+    <script>
+        console.log ("Finding the largest no")
+        console.log ("--------------------------")
+        console.log ("Nesting Algorithm")
+        console.log ("--------------------------")
+
+        let x=2;
+        let y=44;
+        let z=99;
+        let a=21;
+        let b=5;
+
+        let largest_no=0;
+
+        if (x>y){
+
+            if (x>z){
+
+                if(x>a){
+
+                    if(x>b){
+
+                        largest_no=x;
+
+                    }
+                    else{
+
+                        largest_no=b;
+                    }
+
+                }
+                else{
+
+                    if(a>b){
+
+                    largest_no=a;
+
+                    }
+                    else{
+
+                    largest_no=b;
+                    }
+
+                }
+                
+            }
+            else {
+
+                if(z>a){
+
+                        if(z>b){
+
+                            largest_no=z;
+
+                        }
+                        else{
+
+                            largest_no=b;
+                        }
+
+                }
+                else{
+
+                        if(a>b){
+
+                        largest_no=a;
+
+                        }
+                        else{
+
+                        largest_no=b;
+                        }
+
+                }
+                
+            }
+           
+        }
+        else {
+
+            if (y>z){
+
+                if(y>a){
+
+                    if(y>b){
+
+                        largest_no=y;
+
+                    }
+                    else{
+
+                        largest_no=b;
+                    }
+
+                }
+                else{
+
+                    if(a>b){
+
+                    largest_no=a;
+
+                    }
+                    else{
+
+                    largest_no=b;
+                    }
+
+                }
+
+                }
+                else {
+
+                if(z>a){
+
+                        if(z>b){
+
+                            largest_no=z;
+
+                        }
+                        else{
+
+                            largest_no=b;
+                        }
+
+                }
+                else{
+
+                        if(a>b){
+
+                        largest_no=a;
+
+                        }
+                        else{
+
+                        largest_no=b;
+                        }
+
+                }
+
+           }
+
+            
+        }
+
+        console.log ("-----------------------")
+        console.log ("Input 1=" ,x)
+        console.log ("Input 2=" ,y)
+        console.log ("Input 3=" ,z)
+        console.log ("Input 4=" ,a)
+        console.log ("Input 5=" ,b)
+        console.log ("------------------------")
+        console.log ("largest_no=" ,largest_no)
+
+
+   
+
+      
+
+
+
+    </script>
+</body>
+</html>
